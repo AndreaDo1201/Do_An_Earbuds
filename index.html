@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FO.X Earbuds</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer
+      id="model"
+      src="model/andrea_earbuds.glb"
+      camera-controls
+      poster="images/poster.webp"
+      ar
+      ar-modes="webxr scene-viewer quick-look"
+      tone-mapping="neutral"
+      shadow-intensity="1"
+    >
+      <button
+        class="Hotspot"
+        slot="hotspot-1"
+        data-position="1.7857511507843185m 3.476493524472267m -0.004581916435177635m"
+        data-normal="0.9317119586279599m -0.27400768796858455m -0.2383959166675512m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">
+          <h2>Volumn Slider</h2>
+          <p>
+            Adjust the audio volume with a somple physical or touch-sensitive
+            slider.
+          </p>
+        </div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-2"
+        data-position="1.1800675072228024m 2.161718440597291m -0.19312629734434367m"
+        data-normal="0.36170407968943313m -0.9231749715274677m 0.13006971469669498m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">
+          <h2>Fast & Save Electric Charger</h2>
+          <p>
+            Charger your earbuds within 1 hours but usage time is up to 36 hours
+          </p>
+        </div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-3"
+        data-position="0.664373946899803m 4.191651994083486m -0.26005440928509416m"
+        data-normal="-0.6294633273838546m 0.3126392873156066m -0.7113596808265394m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">
+          <h2>LED logo & Noise Cancellation</h2>
+          <p>
+            With a simple tap on the logo noise cancellation will be activated,
+            you will know if the noise cancellation is on or not by seeing the
+            light in the logo
+          </p>
+        </div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-4"
+        data-position="1.7585786525701916m 3.5511841699095434m 1.1285886337619642m"
+        data-normal="-0.4442452275981111m 0.5835077739580825m 0.6798270776357661m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">
+          <h2>Silicon Bud</h2>
+          <p>
+            Soft silicon texture safe for your ears skin and protects your music
+            from outside noises. With 360 Audio places sound all around you,
+            while Dolby Head Tracking™ technology delivers an incredible
+            three-dimensional listening experience.
+          </p>
+        </div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-5"
+        data-position="0.7609090853802505m 3.6535779362528418m 0.8018441766185891m"
+        data-normal="-0.08732860281970614m -0.3296780774658238m 0.940045786314686m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">
+          <h2>Turn on/off tap</h2>
+          <p>
+            You can easily to turn on/off your music or accept/decline a call
+            just a simple tap on the side
+          </p>
+        </div>
+      </button>
+    </model-viewer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
